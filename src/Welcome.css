@@ -1,0 +1,53 @@
+.Welcome{
+  height: 100vh;
+  width:100vw;
+  padding: 220px 300px;
+    text-align: center;
+    background:url("./bg1.jpg");
+    
+ 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  
+  }
+  
+.Welcome  >p{
+    font-size:30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    font-weight:bold;
+    display:block;
+  }
+  
+  .Welcome>p>span{
+  color: purple;
+  font-style: italic;
+  }
+  
+  .Welcome    >button{
+    margin-top:20px;
+    padding:20px;
+    color:white;
+    font-size: large;
+    background-color:transparent;
+    border:3px solid white;
+    border-radius: 12px;
+    box-shadow: 0 3px 3px 0 whitesmoke, 0 3px 3px 0 whitesmoke;
+  
+    
+  }
+  
+  .Welcome  >button:hover{
+    background-color: #008CBA;
+    color:white;
+    
+  }
+  
+  .Welcome    >button>.MuiSvgIcon-root:hover{
+    transform: rotate(90deg);
+  }
+  
+  
+  
