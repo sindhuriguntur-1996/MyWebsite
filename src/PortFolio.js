@@ -11,9 +11,9 @@ import Gallery from "./Gallery";
 function PortFolio () {
 
     return (
-        <div>
+        <div className="header">
             <Header />
-           
+           <h1 className="portheading">PROJECTS</h1>
             <div>
             <Gallery />
             </div>
