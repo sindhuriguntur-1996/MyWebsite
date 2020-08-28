@@ -1,0 +1,223 @@
+
+
+
+.text{
+    position: absolute;
+    top:50%; 
+    left:50%; 
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+      
+    
+}
+
+.mainContent{
+    font-size: smaller;
+    font-style: initial;
+   text-shadow: 2px 2px 5px black;
+   
+}
+
+.Click{
+    margin-top:10px;
+    padding:8px;
+    background-color: #008CBA;
+    font-weight:bold;
+    font-size: smaller;
+    color:white;
+    border:2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow:0px 10px 50px rgba(0,0,0,0.7);
+
+}
+
+.middle{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    opacity: 0;
+    transition: .5s ease;
+    display:flex;
+   justify-content: center;
+    
+
+}
+
+
+.container:hover .middle{
+    opacity: 1;
+   
+}
+
+.img-container{
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:2px;  
+     
+    
+}
+
+.container:hover .image{
+    opacity: 0.3;
+}
+
+.image{
+    margin:10px ;
+    box-shadow:0px 10px 50px rgba(0,0,0,0.7);
+    width:30%;
+    height:auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+     
+}
+
+
+
+
+
+
+
+
+.header{
+    text-align: center;
+    margin:20px;
+}
+
+
+.Portfolio{
+    display:flex;
+    justify-content: center; 
+}
+
+
+.Portfolio>button{
+    margin-top:20px;
+    padding:15px;
+    color:white;
+    font-size: large;
+    background-color:#008CBA;
+    border:3px solid white;
+    border-radius: 12px;
+    box-shadow: 0 3px 3px 3px black, 0 3px 3px 0 black;
+  
+}
+
+
+.container{
+    position: relative;
+       
+}
+.projects-react{
+    position: relative;
+     width:75%;
+     height:75%;
+     margin:0 auto;
+     margin-top:10px;
+     
+    display: flex;
+    flex-direction: row;
+
+     padding:30px;
+     background-color: white;
+     border-radius: 12px;
+     box-shadow: 0 3px 3px 5px black, 0 3px 3px 5px #008CBA;
+     
+ }
+
+ 
+.img-container{
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:2px; 
+    flex-direction: row; 
+     
+    
+}
+
+ .image{
+     width:30%;
+     position: relative;
+ }
+
+ .img-container{
+    display: flex;  
+    justify-items: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    background-color: #008CBA; 
+    position: relative;
+     
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+import React from 'react';
+import Header from './Header';
+import { ButtonBase } from '@material-ui/core';
+import './PortFolio.css';
+import slack from './slack-clone.JPG';
+
+function PortFolio() {
+    return (
+        <div>
+            <Header />
+            <h1 className="header">PROJECTS</h1>
+            <div className="Portfolio">
+            <ButtonBase>All</ButtonBase>
+            <ButtonBase>Python</ButtonBase>
+            <ButtonBase>React</ButtonBase>
+            <ButtonBase>Node.JS</ButtonBase>
+            </div>
+            <div className="projects-react">
+            <div className="img-container">
+                <div className="container"> 
+            <img className="image" src={slack} />
+            <div className="middle">
+            <div className="text">
+            <p className="mainContent">SLACK-Clone</p>
+            <p className="Click">Click to know more</p>
+            </div>
+            </div>
+            </div>
+            <div className="container"> 
+            <img className="image" src={slack} />
+            <div className="middle">
+            <div className="text">hi</div>
+            </div>
+            </div>
+            <div className="container"> 
+            <img className="image" src={slack} />
+            <div className="middle">
+            <div className="text">hi</div>
+            </div>
+            </div>
+            </div>
+
+                    </div>
+                   
+           
+        </div>
+    )
+}*/
+
+export default PortFolio

@@ -5,15 +5,13 @@ import Progress from './Progress';
 
 
 function About() {
-    
-   
-
     return (
-        <div className="About">
+        <div>
         <Header />
-        <h1>ABOUT</h1>
+        <div className="About">
         <Progress />
         
+        </div>
           
         </div>
     )

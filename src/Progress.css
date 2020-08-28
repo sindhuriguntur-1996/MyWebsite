@@ -1,11 +1,12 @@
 body{
     font-family: Helvetica, Arial, sans-serif;
   }
-  .container{
+  .progress{
     width: 50%;
     position: absolute;
     bottom: 10px;
     right:10px;
+    
     
   }
   @keyframes load{
@@ -73,16 +74,7 @@ body{
   .bar.back.basic::before{
     width: calc(80% - 10px);
   }
-  .bar.intermediate::before{
-    width: calc(60% - 10px);
-  }
-  .bar.advanced::before{
-    width: calc(80% - 10px);
-  }
-  .bar.expert::before{
-    width: calc(100% - 10px);
-  }
-
+  
   .bar.front.css::before{
     width: calc(100% - 80px);
   }
@@ -93,4 +85,8 @@ body{
 
   .bar.front.react::before{
     width: calc(100% - 80px);
+  }
+
+  .bar.front.node::before{
+    width: calc(80% - 8px);
   }
