@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter,Route,Switch,NavLink,withRouter} from 'react-router-dom';
 import Welcome from './Welcome';
+import FirstPage from './FirstPage';
 import About from './About';
 import PortFolio from './PortFolio';
 import Blog from './Blog';

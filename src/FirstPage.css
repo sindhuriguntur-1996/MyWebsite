@@ -1,0 +1,101 @@
+.Firstpage{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.Firstpage_header{
+   
+    position:absolute;
+    
+   
+   
+   
+}
+
+.Firstpage_header .spanclass{
+    color: white;
+   
+    padding:5px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    display:table-cell;
+    box-shadow:inset 0 0 5px rgba(0,0,0,0.6);
+    animation:animate .5s infinite;
+}
+
+.Firstpage_header .spanclassspace{
+    
+   
+    padding:5px 10px;
+   
+    display:table-cell;
+   
+}
+
+@keyframes animate
+{
+    0%{
+        transform: translateY(0px);
+      
+    }
+    50%{
+        transform: translateY(-10px);
+        box-shadow:inset 0 0 5px rgba(0,0,0,0.3), 0 5px 0 #ccc,0 15px 5px rgba(0,0,0,0);
+    
+       
+    }
+    100%{
+        transform: translateY(0px);
+       
+    }
+}
+
+.Firstpage_header span:nth-child(1)
+{
+    animation-delay: .2s;
+}
+.Firstpage_header span:nth-child(2)
+{
+    animation-delay: .4s;
+}
+.Firstpage_header span:nth-child(3)
+{
+    animation-delay: .6s;
+}
+.Firstpage_header span:nth-child(4)
+{
+    animation-delay: .8s;
+}
+.Firstpage_header span:nth-child(5)
+{
+    animation-delay: 1.2s;
+}
+.Firstpage_header span:nth-child(6)
+{
+    animation-delay: 1.4s;
+}
+.Firstpage_header span:nth-child(7)
+{
+    animation-delay: 1.6s;
+}
+.Firstpage_header span:nth-child(8)
+{
+    animation-delay: 1.8s;
+}
+.Firstpage_header span:nth-child(9)
+{
+    animation-delay: 2.0s;
+}
+.Firstpage_header span:nth-child(10)
+{
+    animation-delay: 2.2s;
+}
+.Firstpage_header span:nth-child(11)
+{
+    animation-delay: 2.4s;
+}
+.Firstpage_header span:nth-child(12)
+{
+    animation-delay: 1.2s;
+}
