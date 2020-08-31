@@ -1,4 +1,8 @@
-.About>h1{
-   text-align: center;
-   text-decoration: underline;
+.About>.skill{
+  text-align: center;
+  padding:30px;
+  font-size:30px;
+  font-weight: bold;
+  text-decoration:underline;
+   
 }

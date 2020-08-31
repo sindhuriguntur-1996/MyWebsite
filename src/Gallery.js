@@ -23,7 +23,7 @@ function Gallery() {
          <div className="contentBx">
             <div>
             <h2>SLACK-CLONE</h2> 
-            <p>bhdjjkasd</p>
+            <p>git-link</p>
          </div>
 
          </div>
@@ -39,7 +39,7 @@ function Gallery() {
          <div className="contentBx">
             <div>
             <h2>Expensify</h2> 
-            <p>bhdjjkasd</p>
+            <p>git-link</p>
          </div>
 
          </div>
@@ -55,7 +55,7 @@ function Gallery() {
          <div className="contentBx">
             <div>
             <h2>SLACK-CLONE</h2> 
-            <p>bhdjjkasd</p>
+            <p>git-link</p>
          </div>
 
          </div>
@@ -71,7 +71,7 @@ function Gallery() {
          <div className="contentBx">
             <div>
             <h2>SLACK-CLONE</h2> 
-            <p>bhdjjkasd</p>
+            <p>git-link</p>
          </div>
 
          </div>
@@ -91,7 +91,7 @@ function Gallery() {
          <div className="contentBx">
             <div>
             <h2>SLACK-CLONE</h2> 
-            <p>bhdjjkasd</p>
+            <p>git-link</p>
          </div>
 
          </div>
@@ -107,7 +107,7 @@ function Gallery() {
          <div className="contentBx">
             <div>
             <h2>Expensify</h2> 
-            <p>bhdjjkasd</p>
+            <p>git-link</p>
          </div>
 
          </div>
@@ -123,7 +123,7 @@ function Gallery() {
          <div className="contentBx">
             <div>
             <h2>SLACK-CLONE</h2> 
-            <p>bhdjjkasd</p>
+            <p>git-link</p>
          </div>
 
          </div>
@@ -139,7 +139,7 @@ function Gallery() {
          <div className="contentBx">
             <div>
             <h2>SLACK-CLONE</h2> 
-            <p>bhdjjkasd</p>
+            <p>git-link</p>
          </div>
 
          </div>

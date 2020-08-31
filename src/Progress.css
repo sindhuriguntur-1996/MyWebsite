@@ -4,8 +4,9 @@ body{
   .progress{
     width: 50%;
     position: absolute;
-    bottom: 10px;
+    top:30%;
     right:10px;
+    
     
     
   }

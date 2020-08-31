@@ -11,7 +11,7 @@ function Header() {
         <NavLink exact to="/">HOME</NavLink>
         <NavLink to="/about">ABOUT</NavLink>
         <NavLink to="/portFolio">PORTFOLIO</NavLink>
-        <NavLink to="/blog">BLOG</NavLink>
+        
         <NavLink to="/contact">CONTACT</NavLink>               
         </div>
         
