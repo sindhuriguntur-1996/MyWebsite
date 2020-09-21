@@ -4,7 +4,16 @@
 }
 
 
-
+.portfolio__heading{
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    text-shadow: 3px 3px black;
+    text-decoration:underline;
+    position: relative;;
+    top:10%;
+    margin-bottom: 100px;
+}
 
 .portheading{
     font-weight: bold;
@@ -15,4 +24,8 @@
     text-decoration:underline;
    
 
+}
+
+.portfolio__body{
+    height: 100vh;
 }

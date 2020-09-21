@@ -11,7 +11,8 @@ function ContactInfo() {
     return (
         <div>
         <Header />
-            <div className="circle" >
+        <div className="contactInfo__body">
+            <div className="circle" id="contactInfo">
                 <div className="share">
                 <ContactSupportIcon className="support"/>
                 </div>
@@ -22,6 +23,7 @@ function ContactInfo() {
                     <li><RoomIcon className="icon"/></li>
                 </ul>
             </div>
+        </div>
         </div>
     )
 }

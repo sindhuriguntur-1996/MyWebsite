@@ -21,6 +21,7 @@ import me from './me.JPG';
 function Trial() {
     return (
         <>
+        <div className="trial__body">
        <ul id="grid" class="clear">
            <li>
            <div class="hexagon">
@@ -86,6 +87,7 @@ function Trial() {
            </div>
            </li>
        </ul>
+       </div>
         </>
     )
 }

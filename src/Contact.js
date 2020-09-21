@@ -14,7 +14,7 @@ function Contact()  {
   
  return(
    <>
-   <Header />
+  
    <div className="maincontactbody">
    <div className="contact">
     <div className="contactbox">

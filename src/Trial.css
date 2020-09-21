@@ -274,3 +274,10 @@ min-height: 100%;
 opacity: 1;
 
   }
+
+  .trial__body{
+   display: flex;
+   flex:0.5;
+   align-items:center ;
+   
+  }

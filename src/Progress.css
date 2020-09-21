@@ -2,13 +2,15 @@ body{
     font-family: Helvetica, Arial, sans-serif;
   }
   .progress{
-    width: 50%;
-    position: absolute;
-    top:30%;
-    right:10px;
+    width: 100%;
+    position: relative;
     
-    
-    
+  }
+
+  .progress__body{
+    display: flex;
+    flex:0.5;
+    align-items: center;
   }
   @keyframes load{
     from {
@@ -72,6 +74,15 @@ body{
   .bar.learning.db::before{
     width: calc(100% - 40px);
   }
+
+  .bar.learning.mongodb::before{
+    width: calc(80% - 8px);
+  }
+
+  .bar.learning.sqldb::before{
+    width: calc(80% - 8px);
+  }
+
   .bar.back.basic::before{
     width: calc(80% - 10px);
   }

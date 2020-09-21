@@ -1,10 +1,13 @@
-
+.header__body{
+    position: sticky;
+    top:0;
+}
 
 .Header{
     background-color: black; 
     display:flex;
     justify-content: space-around;
-   
+
 }
 
 .Header > a{

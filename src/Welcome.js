@@ -8,6 +8,7 @@ import {TransitionGroup} from 'react-transition-group';
 import { CSSTransition } from 'react-transition-group';
 import FirstPage from './FirstPage';
 import './FirstPage';
+import Header from './Header';
 
 
 const Fade = ({ children, ...props }) => (
@@ -20,12 +21,18 @@ const Fade = ({ children, ...props }) => (
    </CSSTransition>
  );
 
+ function goto(url)
+ {
+ window.location=url;
+
+ }
 
 function Welcome() {
    let history=useHistory();
    const[show,setShow]=useState(false)
       const handleButtonClick=()=>{
-            history.push('/about');
+           // history.push('/about');
+           goto('#about')
             
           }
 
@@ -38,7 +45,9 @@ function Welcome() {
         
         
           return (
-            <div className="Welcome "> 
+            <>
+            <Header />
+            <div className="Welcome" id="home"> 
               <p>
               Hello, I'm 
               </p>
@@ -54,6 +63,8 @@ function Welcome() {
               </Fade>
        
              </div>
+            <About />
+             </>
             
           );
     
