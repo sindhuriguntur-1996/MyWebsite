@@ -1,11 +1,7 @@
 import React from 'react';
-import Header from './Header';
-import { ButtonBase } from '@material-ui/core';
-import './PortFolio.css';
-import slack from './slack-clone.JPG';
-import react from './react.png';
-import Gallery from "./Gallery";
-import MainGallery from './MainGallery';
+import './../assets/css/PortFolio.css';
+import Gallery from "../Gallery";
+
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './FirstPage.css'
+import './../assets/css/FirstPage.css'
 
 
 function FirstPage(){

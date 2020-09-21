@@ -2,13 +2,13 @@ import React,{useState,useEffect} from 'react';
 import {ButtonBase} from '@material-ui/core';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import About from './About';
-import './Welcome.css';
+import './../assets/css/Welcome.css';
 import {useHistory} from 'react-router-dom';
 import {TransitionGroup} from 'react-transition-group';
 import { CSSTransition } from 'react-transition-group';
-import FirstPage from './FirstPage';
-import './FirstPage';
-import Header from './Header';
+import FirstPage from './../components/FirstPage';
+
+import Header from './../components/Header';
 
 
 const Fade = ({ children, ...props }) => (

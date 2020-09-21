@@ -1,16 +1,16 @@
 import React from 'react';
-import './ContactInfo.css';
+import './../assets/css/ContactInfo.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import RoomIcon from '@material-ui/icons/Room';
 import ContactSupportIcon from '@material-ui/icons/ContactSupport';
-import Header from './Header';
+
 
 function ContactInfo() {
     return (
         <div>
-        <Header />
+        
         <div className="contactInfo__body">
             <div className="circle" id="contactInfo">
                 <div className="share">

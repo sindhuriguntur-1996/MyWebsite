@@ -1,12 +1,10 @@
 import React from 'react';
-import './App.css';
-import {BrowserRouter,Route,Switch,NavLink,withRouter} from 'react-router-dom';
-import Welcome from './Welcome';
-import FirstPage from './FirstPage';
-import About from './About';
-import PortFolio from './PortFolio';
-import ContactInfo from './ContactInfo';
-import Header from './Header';
+import {Route,Switch} from 'react-router-dom';
+import Welcome from './components/Welcome';
+import About from './components/About';
+import PortFolio from './components/PortFolio';
+import ContactInfo from './components/ContactInfo';
+
 
 class App extends React.Component {
 

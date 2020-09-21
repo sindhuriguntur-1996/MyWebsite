@@ -1,19 +1,17 @@
 import React from 'react';
-import './About.css';
-import Header from './Header';
-import Progress from './Progress';
-import Button from './Button';
-import Trial from './Trial.js';
-import PortFolio from './PortFolio.js';
-import Contact from './Contact';
-import ContactInfo from './ContactInfo';
+import './../assets/css/About.css';
+import Progress from './../components/Progress';
+import Button from '../Button';
+import Trial from '../Trial.js';
+import PortFolio from './../components/PortFolio';
+import ContactInfo from './../components/ContactInfo';
 
 
 function About() {
     return (
         <>
         <div className="about__body" id="about">
-        {/*<Header />*/}
+        
         <Trial/>
         
         <p className="skill">SKILL-SET</p>
