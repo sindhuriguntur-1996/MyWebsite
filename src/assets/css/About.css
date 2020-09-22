@@ -14,7 +14,14 @@
     height:100vh;
     display: flex;
     justify-content: space-between;
-    
+    scroll-snap-align: start;
     
   }
+
+.about__portfolio{
+  scroll-snap-align: start;
+}
   
+.about__contact{
+  scroll-snap-align: start;
+}

@@ -1,5 +1,10 @@
 *{
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+html {
+  scroll-snap-type: y mandatory;
 }
 
 .Welcome{
@@ -12,10 +17,25 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    scroll-snap-align: start;
  
   
   }
+
+  .welcome__about{
+    scroll-snap-align: start;
+    height: 100vh;
+  }
   
+  .welcome__portfolio{
+    scroll-snap-align: start;
+    height: 100vh;
+  }
+
+  .welcome__contact{
+    scroll-snap-align: start;
+    height: 100vh;
+  }
   .fade-enter {
     opacity: 0.01;
   }
@@ -72,14 +92,8 @@
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     font-weight:bold;
-    text-shadow: white;  
-   
-    
+    text-shadow: white;     
   }
-
-  
-
-  
 
   .welcomeclass{
     margin:0;

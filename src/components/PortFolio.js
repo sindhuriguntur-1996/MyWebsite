@@ -1,8 +1,6 @@
 import React from 'react';
 import './../assets/css/PortFolio.css';
-import Gallery from "../Gallery";
-
-
+import Gallery from "./Gallery";
 
 
 function PortFolio () {
