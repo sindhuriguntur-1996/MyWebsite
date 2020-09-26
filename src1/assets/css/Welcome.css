@@ -1,8 +1,8 @@
 *{
   scroll-behavior: smooth;
  /* scroll-snap-type: y mandatory;*/
+  
 }
-
 
 .Welcome{
   height: 100vh;
@@ -249,7 +249,7 @@
     opacity: 0.01;
     transition: opacity 300ms ease-in;
   }
-  
+
   @media(min-width:1000px){
     *{
       scroll-behavior: smooth;
@@ -261,4 +261,3 @@
       scroll-snap-type: y mandatory;
     }
   }
-  

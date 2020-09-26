@@ -1,7 +1,8 @@
 #grid {
     position: absolute;
-    width: 40%;
-    margin: 0 auto;
+    width:40vw;
+   height: 20vh;
+   
     
 
     padding: 0; /* Clears unordered list default of 40px */
@@ -231,9 +232,6 @@ min-height: 100%;
     width: calc(100% - 50px);
   }
   
-  
-
-  
 
   #grid li:hover img {
 
@@ -273,6 +271,7 @@ opacity: 1;
   }
 
   .trial__body{
+  height:50vh;
    display: flex;
    flex:0.5;
    align-items:center ;

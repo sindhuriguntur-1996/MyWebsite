@@ -177,7 +177,7 @@ function Gallery() {
         </section>
         </div>
         </div>
-        </>
+</>
     )
 }
 

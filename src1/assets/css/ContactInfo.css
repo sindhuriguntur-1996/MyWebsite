@@ -1,11 +1,12 @@
 .circle{
-    position: relative;
+    position: absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
     width:100px;
     height:100px;
     border-radius: 50%;
+
 }
 
 .circle .share{
@@ -23,7 +24,13 @@
 }
 
 .contactInfo__body{
-    height: 100vh;
+  position: relative;
+    height:100vh;
+    display:grid;
+    place-items: center;
+    
+   
+    
 }
 .circle ul{
     position: absolute;
@@ -110,108 +117,10 @@
     
 }
 
-.contactInfo__gmailInfo{
-    position: absolute;
-    top:100%;
-    
-    padding: 10px;
-    
-}
-
-.contactInfo__linkInfo{
-    position: absolute;
-    top:30%;
-    right: 100%;
-    padding: 10px;
-
-}
-
-.contactInfo__linkInfo a{
-    text-decoration: none;
-}
-
-.contactInfo__locInfo{
-    position: absolute;
-    top:30%;
-    left:100%;
-    padding: 10px;
-    
-}
-
-.contactInfo__gitInfo{
-    position: absolute;  
-    bottom: 100%;
-    
-    
-}
-
-.contactInfo__gitInfo a{
-    text-decoration: none;
-}
-
-.contactInfo__gith1,.contactInfo__gith2{
-    color: transparent;
-}
-
-.circle ul:hover .contactInfo__gith1{
-    color: black;
-}
-
-.circle ul:hover .contactInfo__gitInfo a{
-    text-decoration: underline;
-    
-}
-
-.circle ul:hover .contactInfo__gith2{
-    color: black;
-}
-
-.contactInfo__linkh1,.contactInfo__linkh2{
-    color: transparent;
-}
-
-.circle ul:hover .contactInfo__linkh1{
-    color: black;
-}
-
-.circle ul:hover .contactInfo__linkInfo a{
-    text-decoration: underline;
-}
-
-.circle ul:hover .contactInfo__linkh2{
-    color: black;
-}
-
-
-.contactInfo__loch1,.contactInfo__loch2{
-    color: transparent;
-}
-
-.circle ul:hover .contactInfo__loch1{
-    color: black;
-}
-
-.circle ul:hover .contactInfo__loch2{
-    color: black;
-}
-
-.contactInfo__gmailInfo .contactInfo__h1,.contactInfo__gmailInfo .contactInfo__h2{
-    color: transparent;
-}
-
-
-.circle ul:hover .contactInfo__h1{
-    color: black;
-}
-
-.circle ul:hover .contactInfo__h2{
-    color: #000;
-}
-
 @media(max-width:1000px){
     .circle{
         position: relative;
-        top:100%;
+        top:150px;
         left:100%;
         transform:translate(-50%,-50%);
         width:100px;
@@ -223,7 +132,8 @@
     .contactInfo__body{
         position: absolute;
           height:100vh;
-                      
+         
+               
       }
 
       .circle ul{
@@ -243,4 +153,5 @@
         transform:scale(0.3) rotate(0deg);
     }
 }
+
 

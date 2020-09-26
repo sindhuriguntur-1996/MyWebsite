@@ -1,9 +1,11 @@
 .header__body{
     position: sticky;
     top:0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
     font-weight: bold;
+    
 }
+
 
 .Header{
     background-color: black; 
@@ -27,6 +29,7 @@
 .active{
     background-color:red;
 }
+
 
 @media(max-width:1000px){
     .header__body{
@@ -58,6 +61,5 @@
     }
     
 }
-
 
 

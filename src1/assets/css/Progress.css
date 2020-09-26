@@ -1,0 +1,108 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .progress{
+    width: 100%;
+   height: 50vh;
+    position: relative;
+    padding:4px;
+    
+  }
+
+  .progress__body{
+   
+    height:100vh;
+    display: flex;
+    flex:0.5;
+    align-items: center;
+  }
+  @keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  
+  .bar{
+    background-color: #EEE;
+    padding:    2px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  }
+  .bar::before{
+    content:  attr(data-skill);
+    background-color: #f3b0ff;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+
+  .bar::after{
+      content:attr(level);
+      color:black;
+  }
+  
+  .bar.front::before{
+    background-color: #ffcc33;
+  }
+  .bar.back::before{
+    background-color: #a6cfe3;
+  }
+  
+  .bar.learning::before{
+    width: calc(100% - 100px);
+  }
+
+  .bar.learning.db::before{
+    width: calc(100% - 40px);
+  }
+
+  .bar.learning.mongodb::before{
+    width: calc(100% - 120px);
+  }
+
+  .bar.learning.sqldb::before{
+    width: calc(100% - 120px);
+  }
+
+  .bar.back.basic::before{
+    width: calc(100% - 120px);
+  }
+  
+  .bar.front.css::before{
+    width: calc(100% - 80px);
+  }
+
+  .bar.front.html::before{
+    width: calc(100% - 40px);
+  }
+
+  .bar.front.react::before{
+    width: calc(100% - 80px);
+  }
+
+  .bar.front.node::before{
+    width: calc(100% - 110px);
+  }
